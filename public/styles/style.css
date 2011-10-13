@@ -1,1 +1,87 @@
-@import url("reset.css");
+/* line 1, ../sass/_reset.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 1, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 1, ../sass/_reset.scss */
+body {
+  line-height: 1em;
+}
+
+/* line 1, ../sass/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 1, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 1, ../sass/_reset.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 1, ../sass/_reset.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 1, ../sass/_reset.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 1, ../sass/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 1, ../sass/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 1, ../sass/_reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 1, ../sass/_reset.scss */
+input, textarea {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 3, ../sass/_reset.scss */
+article, aside, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 5, ../sass/_reset.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 9, ../sass/_reset.scss */
+* {
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: none;
+}

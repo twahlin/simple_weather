@@ -12,7 +12,7 @@
 
 <body>
 
-&copy; <? echo date("Y");?> 
+
 
 </body>
 </html>
